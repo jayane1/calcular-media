@@ -73,6 +73,11 @@ document.addEventListener('DOMContentLoaded', function () {
           <label for="grade2">NOTA 2:</label>
           <input type="number" id="grade2" class="grade" min="0" max="10">
         </div>
+        <div class="input-group">
+        <label for="grade2">NOTA 3:</label>
+        <input type="number" id="grade2" class="grade" min="0" max="10">
+      </div>
+    
       `;
       updateAddGradeButton();
       updateCalculateButton();
